@@ -1,8 +1,4 @@
-export type Question = {
-  q: string;
-  opts: string[];
-  a: number;
-};
+import type { Question } from "./types";
 
 export const QUESTIONS: Question[] = [
   {
